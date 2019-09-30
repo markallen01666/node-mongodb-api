@@ -13,7 +13,7 @@ const getOfficesController = require('./controllers/getOfficesController')
 const getEmployeesController = require('./controllers/getEmployeesController')
 
 // connect database
-mongoose.connect('mongodb+srv://53ptolemy8607:n6SkRDlbTED6kPZN@cluster0-wvhp3.mongodb.net/Company', {
+mongoose.connect('mongodb+srv://53ptolemy8607:n6SkRDlbTED6kPZN@cluster0-wvhp3.mongodb.net/Company', { // -- incomplete - needs more work
   
   useNewUrlParser: true,
   useUnifiedTopology: true

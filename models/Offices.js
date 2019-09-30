@@ -30,7 +30,7 @@ const OfficeSchema = new Schema({
   }
 })
 
-OfficeSchema.plugin(uniqueValidator) // Handle error on duplicate staff ID
+OfficeSchema.plugin(uniqueValidator) // Handle error on duplicate office
 
 const Office = mongoose.model('Office', OfficeSchema)
 module.exports = Office
